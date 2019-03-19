@@ -1,0 +1,47 @@
+.login-page
+    width: 100vw
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: $white
+    // background-image: $topography-bg
+    flex-direction: column
+    &-header
+        width: 100%
+        padding-left: 2em
+        p
+            font-size: 1.5em
+            line-height: .4em
+            color: $grey-blue
+            font-weight: 600
+        p:first-child
+            color: $black
+        
+
+
+.login-form
+    width: 100%
+    height: auto
+    padding: 1.25em 0 1.25em 1.25em
+    // background-color: $white
+    // box-shadow: $shadow-medium
+    border-radius: 4px
+    &-container
+        display: flex
+        flex-direction: column
+    label
+        padding-right: 0
+    input[type=text],
+    input[type=password]
+        height: 2.5em
+        border-bottom: 2px solid rgba(0,0,0,0.3)
+        transition: all 150ms ease-in-out
+        &:focus
+            outline: none
+            border-bottom: 2px solid $black
+    ::placeholder
+        font-size: 1em
+        font-weight: 400
+    .submit-btn
+        margin: 2em 2em 2em 1em

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Login } from './views/Login';
+import Login from './views/Login';
 import { Profile } from './views/Profile';
 import { Chat } from './views/chat/Chat';
 import { Dashboard } from './views/dashboard/Dashboard';
